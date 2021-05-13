@@ -11,7 +11,6 @@
         id_datas.forEach(id_data => {
           if (id_data.checked === true) {
             selectedlists.push(id_data.value);
-            // console.log(id_data.value);
           }
         });
         all_li.forEach(li=>{
